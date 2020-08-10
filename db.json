@@ -1,0 +1,217 @@
+{
+  "books": [
+    {
+      "id": "1001",
+      "author": "Walt Whitman",
+      "country": "United States",
+      "imageLink": "images/leaves-of-grass.jpg",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Leaves_of_Grass\n",
+      "pages": 152,
+      "title": "Leaves of Grass",
+      "genre": "Poetry",
+      "year": 1855,
+      "availability": false,
+      "TotalCopies": 0
+    },
+    {
+      "id": "1002",
+      "author": "Virginia Woolf",
+      "country": "United Kingdom",
+      "imageLink": "images/mrs-dalloway.jpg",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Mrs_Dalloway\n",
+      "pages": 216,
+      "title": "Mrs Dalloway",
+      "genre": "Modernist fiction",
+      "year": 1925,
+      "availability": true,
+      "TotalCopies": 1
+    },
+    {
+      "id": "1003",
+      "author": "Virginia Woolf",
+      "country": "United Kingdom",
+      "imageLink": "images/to-the-lighthouse.jpg",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/To_the_Lighthouse\n",
+      "pages": 209,
+      "title": "To the Lighthouse",
+      "genre": "Modernist fiction",
+      "availability": false,
+      "TotalCopies": 0,
+      "year": 1927
+    },
+    {
+      "id": "1000",
+      "author": "Vyasa",
+      "country": "India",
+      "imageLink": "images/the-mahab-harata.jpg",
+      "language": "Sanskrit",
+      "link": "https://en.wikipedia.org/wiki/Mahabharata\n",
+      "pages": 276,
+      "title": "Mahabharata",
+      "genre": "Historical",
+      "year": -700,
+      "availability": false,
+      "TotalCopies": 0
+    },
+    {
+      "id": "1006",
+      "author": "Unknown",
+      "country": "Iceland",
+      "imageLink": "images/njals-saga.jpg",
+      "language": "Old Norse",
+      "link": "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga\n",
+      "pages": 384,
+      "title": "Njál's Saga",
+      "genre": "Fairy tale",
+      "availability": true,
+      "TotalCopies": 1,
+      "year": 1350
+    },
+    {
+      "id": "1005",
+      "author": "Unknown",
+      "country": "India/Iran/Iraq/Egypt/Tajikistan",
+      "imageLink": "images/one-thousand-and-one-nights.jpg",
+      "language": "Arabic",
+      "link": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights\n",
+      "pages": 288,
+      "title": "One Thousand and One Nights",
+      "genre": "Fairy tale",
+      "availability": true,
+      "TotalCopies": 1,
+      "year": 1200
+    }
+  ],
+  "Users": [
+    {
+      "userID": "f69c6c3d-5e7a-4697-af49-31f14dd09a3a",
+      "username": "pb",
+      "password": "pb",
+      "cartID": "b055e757-912b-4873-9e2a-687199efcdbc",
+      "shelfID": "937821ab-31bc-4d6c-9275-cd46f1991a1a",
+      "id": 1
+    },
+    {
+      "userID": "1a2996e3-219e-443a-95f7-0f68193b87e6",
+      "username": "test1",
+      "password": "test1",
+      "cartID": "3b0cf126-221f-43e1-a8ed-720ae169a9c5",
+      "shelfID": "13c4f7a9-208c-4927-b842-d893157541da",
+      "id": 2
+    },
+    {
+      "userID": "cb3ad395-44ed-4665-8b35-1bf67690e1d0",
+      "username": "test2",
+      "password": "test2",
+      "cartID": "87769220-e6e9-45cc-b3f3-fdcdc39a7e98",
+      "shelfID": "df00da61-e6f6-4af0-afad-4e7d2ac47c9f",
+      "id": 3
+    },
+    {
+      "userID": "33ea98a8-0bd8-4818-be46-74c590839901",
+      "username": "",
+      "password": "",
+      "cartID": "83be6c46-cfbe-4c42-a6e2-cf7628e78805",
+      "shelfID": "543dc75c-d7be-4b75-a30e-0a665432866e",
+      "id": 4
+    },
+    {
+      "userID": "a0e4456a-ee77-47dd-9fdf-3e0c548bc6ff",
+      "username": "test4",
+      "password": "test4",
+      "cartID": "00b09558-cd5f-49d3-ae9b-726f76cd5887",
+      "shelfID": "37211744-f834-4dd3-8756-b41c093c6238",
+      "id": 5
+    }
+  ],
+  "cart": [
+    {
+      "cartID": "b055e757-912b-4873-9e2a-687199efcdbc",
+      "userID": "f69c6c3d-5e7a-4697-af49-31f14dd09a3a",
+      "books": [],
+      "id": 1
+    },
+    {
+      "cartID": "3b0cf126-221f-43e1-a8ed-720ae169a9c5",
+      "userID": "1a2996e3-219e-443a-95f7-0f68193b87e6",
+      "books": [
+        1003,
+        1006
+      ],
+      "id": 2
+    },
+    {
+      "cartID": "87769220-e6e9-45cc-b3f3-fdcdc39a7e98",
+      "userID": "cb3ad395-44ed-4665-8b35-1bf67690e1d0",
+      "books": [],
+      "id": 3
+    },
+    {
+      "cartID": "83be6c46-cfbe-4c42-a6e2-cf7628e78805",
+      "userID": "33ea98a8-0bd8-4818-be46-74c590839901",
+      "books": [],
+      "id": 4
+    },
+    {
+      "cartID": "00b09558-cd5f-49d3-ae9b-726f76cd5887",
+      "userID": "a0e4456a-ee77-47dd-9fdf-3e0c548bc6ff",
+      "books": [],
+      "id": 5
+    }
+  ],
+  "shelf": [
+    {
+      "shelfID": "937821ab-31bc-4d6c-9275-cd46f1991a1a",
+      "userID": "f69c6c3d-5e7a-4697-af49-31f14dd09a3a",
+      "books": [
+        1002,
+        1000,
+        1001,
+        1003,
+        1006,
+        1005
+      ],
+      "id": 1
+    },
+    {
+      "shelfID": "13c4f7a9-208c-4927-b842-d893157541da",
+      "userID": "1a2996e3-219e-443a-95f7-0f68193b87e6",
+      "books": [
+        1001,
+        1002,
+        1000
+      ],
+      "id": 2
+    },
+    {
+      "shelfID": "df00da61-e6f6-4af0-afad-4e7d2ac47c9f",
+      "userID": "cb3ad395-44ed-4665-8b35-1bf67690e1d0",
+      "books": [
+        1003
+      ],
+      "id": 3
+    },
+    {
+      "shelfID": "83be6c46-cfbe-4c42-a6e2-cf7628e78805",
+      "userID": "33ea98a8-0bd8-4818-be46-74c590839901",
+      "books": [],
+      "id": 4
+    },
+    {
+      "shelfID": "37211744-f834-4dd3-8756-b41c093c6238",
+      "userID": "a0e4456a-ee77-47dd-9fdf-3e0c548bc6ff",
+      "books": [
+        1003,
+        1006,
+        1005,
+        1000,
+        1002,
+        1001
+      ],
+      "id": 5
+    }
+  ]
+}
